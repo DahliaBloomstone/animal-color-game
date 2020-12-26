@@ -1,0 +1,109 @@
+<html>
+<head>
+</head>
+<style> 
+#pink {
+    width: 50%;
+    height: 50%;
+    background-color:pink;
+    float: left;
+}
+#yellow {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    float: left;
+}
+
+#blue {
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    float: left;
+}
+
+#purple {
+    width: 50%;
+    height: 50%;
+    background-color: purple;
+    float: left;
+}
+</style> 
+<body>
+<input type="button" value="CLICK" id="btn1" style="position: absolute;">
+    <div id="pink">
+        <img src="http://clipart-library.com/images_k/animals-transparent-background/animals-transparent-background-16.png" width="200" height="200" alt="Italian Trulli">
+
+    </div>
+
+    <input type="button" value="CLICK" id="btn2" style="position: absolute;left:43%">
+    <div id="yellow">
+        <img src="http://clipart-library.com/images_k/animals-transparent-background/animals-transparent-background-5.png" width="200" height="200" alt="Italian Trulli">
+    </div>
+
+<input type="button" value="CLICK" id="btn3" style="position: absolute;left:74%">
+    <div id="blue">
+        <img src="https://i0.wp.com/freepngimages.com/wp-content/uploads/2019/06/wild-rabbit.png?w=1000" width="200" height="200" alt="Italian Trulli">
+    </div>
+
+<input type="button" value="CLICK" id="btn4" style="position: absolute;left:74%">
+<div id="purple">
+    <img src="http://clipart-library.com/img1/1520190.png" width="200" height="200" alt="Italian Trulli">
+
+</div>
+
+
+</body>
+
+<script> 
+document.getElementById("btn1").addEventListener("click", function(){
+   let box1= document.getElementById("pink")
+   if(box1.style.display=="none")
+   {
+       box1.style.display="block";
+   }
+   else
+   {
+        box1.style.display="none"; 
+   }
+})
+
+document.getElementById("btn2").addEventListener("click", function(){
+   let box1= document.getElementById("blue")
+   if(box1.style.display=="none")
+   {
+       box1.style.display="block";
+   }
+   else
+   {
+        box1.style.display="none"; 
+   }
+})
+
+   document.getElementById("btn3").addEventListener("click", function(){
+   let box1= document.getElementById("yellow")
+   if(box1.style.display=="none")
+   {
+       box1.style.display="block";
+   }
+   else
+   {
+        box1.style.display="none"; 
+   }
+
+   })
+
+   document.getElementById("btn4").addEventListener("click", function(){
+   let box1= document.getElementById("purple")
+   if(box1.style.display=="none")
+   {
+       box1.style.display="block";
+   }
+   else
+   {
+        box1.style.display="none"; 
+   }
+
+   })
+</script>
+</html>
